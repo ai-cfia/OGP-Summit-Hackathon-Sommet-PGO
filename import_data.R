@@ -1,0 +1,1 @@
+dataUN <- read.csv("./ogp_data/us_trademerchtotal_export.csv", head = TRUE, sep = ",", quote = "\"")
