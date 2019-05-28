@@ -1,1 +1,2 @@
-dataUN <- read.csv("./ogp_data/us_trademerchtotal_export.csv", head = TRUE, sep = ",", quote = "\"")
+dataUN_export <- read.csv("./ogp_data/us_trademerchtotal_export.csv", head = TRUE, check.names = FALSE, sep = ",", quote = "\"")
+dataUN_export_share <- read.csv("./ogp_data/us_trademerchtotal_export_share.csv", head = TRUE, check.names = FALSE, sep = ",", quote = "\"")
