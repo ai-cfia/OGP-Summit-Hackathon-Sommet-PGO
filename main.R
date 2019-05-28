@@ -1,4 +1,5 @@
 library(ggplot2)
+library(plotly)
 library(data.table)
 library(dplyr)
 source("import_data.R")
